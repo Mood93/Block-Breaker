@@ -6,6 +6,8 @@ public class LoseCollider : MonoBehaviour {
 
     public LevelManager levelManager;
 
+
+    // When ball touches collider player won
     void OnTriggerEnter2D(Collider2D trigger) {
         print("Trigger");
         levelManager.LoadLevel("Win");
