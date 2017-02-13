@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MusicPlayer : MonoBehaviour {
 
+	// creates a singleton. So that there is only one music player throughut scene changes
+
     static MusicPlayer instance = null;
 
     void Awake() { 
@@ -19,8 +21,4 @@ public class MusicPlayer : MonoBehaviour {
         }
     }
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
