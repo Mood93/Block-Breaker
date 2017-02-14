@@ -12,7 +12,7 @@ public class LoseCollider : MonoBehaviour {
 
     // When ball touches collider player won
     void OnTriggerEnter2D(Collider2D trigger) {
-        levelManager.LoadLevel("Win");
+        levelManager.LoadLevel("Lose Screen");
 
     }
 }
